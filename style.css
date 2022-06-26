@@ -1,0 +1,22 @@
+html{
+    background: #ecf0f1;
+}
+body{
+    height: 1500px;
+    width: 1200px;
+    margin: 0 auto;
+    background: khaki;
+    color: green;
+    font-family: roboto;
+    font-size: 18px;
+}
+
+
+
+h1{
+    color: blueviolet;
+}
+p{
+
+    color: red;
+}

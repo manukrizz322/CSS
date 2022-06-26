@@ -1,0 +1,115 @@
+1.what is CSS?
+  style sheets are a collection of formatting rules.
+         P{
+          color:red;
+          text-align:center;
+          font-size:15px;
+         }
+
+2.what do you need to know?
+   Light basic of internet.
+   Complete HTML Knowledge.
+
+3.Topics
+
+Structure of css              Margin Properties
+How to link css               Padding Properties
+Font Properties               Border Properties
+Background Properties         Type of Selectors
+Text Properties               Box Model
+List Properties               Display &Position Properties
+
+
+4.Structure of css
+
+   Property       Value       Selector
+   color:          red;         p
+
+ 5.How to link css rules in website?
+       inline Style(Inside the Tag to style)
+       Internal Style(Inside The Head Tag)
+       External Style(External*.CSS File)  
+
+   inline style
+     inline-CSS rules by using the style attribute in HTML elements.
+     Eg:
+       <p style="color:red;text-align:center">
+       ------
+       ------
+       </p>  
+
+6.Font Properties
+ Properties       Valid Values          Example
+ font-family      font-name             font-family:Arial;
+ font-style       normal|italic         font-style:italic;
+ font-variant     normal|small-caps     font-variant:small-caps;
+ font-weight      normal|bold           font-weight:bold;
+ font-size        size with unit        font-size:10px;
+ color            Values                color:red;
+ font             values                font:bold 12pt Arial;
+
+ 7.Background Properties
+ Properties          Valid Values            Example
+ background-color    color|transparent       background-color:yellow;
+background-image     image location          background-image:url('tom.png');
+background-repeat    repeat|repeat-x|        background-repeat:no-repeat;
+                     repeat-y|no-repeat
+background-Position  [Position|length]|      background-position:top center;
+                     {1,2}|[top|center|
+                     bottom]|[left center|
+                     right]
+background           transparent|color||url  background:silver url(image.jpg)
+                     ||repeat||scroll||      repeat-y
+                     position          
+
+8.Text Properties
+Properties           Valid values            Example
+Letter-spacing       normal|length           letter-spacing:5pt
+text-decoration      none|underline|         textdecoration:underline
+                     overline|linethrough
+vertical-align       sub|super|              vertical-align:sub
+text-transform       captialize|uppercase    text-transform:lowercase;
+                     |lowercase|none 
+text-align           left|right|center|      text-align:center;
+                     justify
+text-indent          length|percentage       text-indent:25px;
+line-height          normal|number|length    Line-height:15px;
+                     |percentage     
+
+9.List Properties
+
+Properties            Valid Values            Example
+list-style-type       disk|circle|square|     list-style-type:upper-alpha;
+                      decimal|lower-roman|
+                      upper-roman|lower-alpha
+                      |upper-alpha|none
+list-style-image      url|none                list-style-image:url(button.png);
+
+10.Border Properties
+
+Properties            Valid Values            Example
+border-top-width      thin|medium|            border-top-width:thin;
+border-right-width    thick|length
+border-bottom-width
+border-left-width
+
+border-right-color    color                    bottom-top-color:red;
+border-left-color
+border-top-color
+border-bottom-color
+
+border-right-style     none|solid|double|      border-top-style:solid
+border-left-style      groove|ridge|inset|
+border-top-style       outset
+border-bottom-style
+
+border                 border-width|border-    border:thin solid blue;
+                       style|border-color
+
+11. Shortcut cmd link-https://docs.emmet.io/cheat-sheet/                       
+
+12.color codes link:https://htmlcolorcodes.com
+
+13.Formal Colors link:https://color.adobe.com/explore
+
+

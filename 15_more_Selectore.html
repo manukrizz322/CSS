@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More_Selectors</title>
+    <style>
+       /* h1,p,h3{
+            color: green;
+        }*/
+       /* .box p{color: red;}*/
+        /*.box>p{color: red;}/*color the only the childs*/
+    .box+p{color: red;}/*color the first inner child*/
+   div[class~="inner"]{background: grey;}
+   .txt{color: white;}
+   a[title="link1"]{color: orange;}
+   a[href^="test"]{color: red;}
+   a[href$="g"]{color: violet;}
+   </style>
+</head>
+<body>
+    <h1>More Selector Properties In CSS</h1>
+    
+    
+    <div class="box">
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, veniam amet labore sequi ad porro explicabo exercitationem deserunt quo? Incidunt pariatur unde iusto, numquam nesciunt aliquid ipsam eligendi aperiam repellat?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus laboriosam enim itaque maxime velit, nesciunt, non amet corporis quasi veritatis facere? Tempore in pariatur, inventore nulla sunt minima voluptates rerum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est veritatis a laborum, sunt tempora necessitatibus harum corporis iure reiciendis cumque earum, neque illo rem maiores voluptatibus officia dignissimos. Minima, iure.</p>
+        <div class="inner txt">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates et iure inventore vel! Accusantium officiis veniam voluptatum harum laborum nihil, corporis ducimus ipsam. Molestiae non inventore reiciendis ratione quasi. Alias.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum magni suscipit at ea enim, doloribus esse dignissimos a quasi dolor iure sunt, laudantium veniam ut. Similique commodi tenetur dolorum aut!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repellendus, temporibus consectetur neque aliquid ut fuga nulla nisi, illum alias, debitis eos. In sunt vero cum, doloremque ipsam pariatur blanditiis!</p>
+
+        </div>
+    </div>
+    <div id="first">This is a div</div>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit ea quia tenetur possimus natus fugiat nulla accusamus praesentium asperiores hic quas officiis quidem quasi architecto, a cumque itaque nemo vero?</p>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, officia veritatis adipisci, voluptatibus voluptatum provident laudantium porro quibusdam odio laborum nemo qui beatae eligendi deleniti rem eum iusto autem. Dolores?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero cum voluptas ex similique consectetur, soluta accusamus, perspiciatis ipsam porro sed officiis corporis dolores ullam blanditiis est incidunt? Atque, reprehenderit.</p>
+<a href="test.html" title="link1">Link-1</a>
+<a href="test.pdf" title="link2">Link-2</a>
+<a href="test.png"title="link3" >Link-3</a>
+<a href="#" title="link4">Link-4</a>
+</body>
+</html>
